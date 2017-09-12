@@ -4,7 +4,7 @@
 
   However, whatever you call this here on the import must be what you
   use on line 10 to instantiate the new animal class. If I import this
-  as Gorilla then I have to say new Gorilla( 'Harambe' ) on L#10
+  as Gorilla then I have to say new Gorilla( 'Harambe' ) on L#11
 */
 import Animal from './base-classes/animal';
 
