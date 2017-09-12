@@ -1,4 +1,15 @@
-class Animal {
+/*
+  Here we're exporting the Animal class as default which means
+  people can import it named anything they like.
+
+  If you wanted to force people to  have to import with the name
+  Animal in their import statement then remove the default keyword.
+
+  You would then import this with the following syntax (note the braces
+  which are required for named imports):
+    import { Animal } from './base-classes/animal';
+*/
+export default class Animal {
   constructor( name ) {
     this.name   = name;
     this.thirst = 50;
