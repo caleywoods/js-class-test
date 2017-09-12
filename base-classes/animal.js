@@ -1,3 +1,10 @@
+import { Rambo } from './rambo';
+
+const rambo = new Rambo;
+
+rambo.add_weapon('M60 - Beltfed Machine Gun');
+
+console.log( `This is the rambo from animal class: Rambo is using an ${rambo.arsenal}` );
 /*
   Here we're exporting the Animal class as default which means
   people can import it named anything they like.

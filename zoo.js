@@ -7,7 +7,12 @@
   as Gorilla then I have to say new Gorilla( 'Harambe' ) on L#11
 */
 import Animal from './base-classes/animal';
+import { Rambo } from './base-classes/rambo';
+
+const mainRambo = new Rambo;
+
+mainRambo.add_weapon('Compound Bow');
+
+console.log( `This is the rambo from zoo.js file: Rambo is using a ${mainRambo.arsenal}` );
 
 const tiger = new Animal( 'Tony' );
-
-console.log( tiger );
